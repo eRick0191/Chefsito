@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:padding="6dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/hola2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                app:srcCompat="@drawable/a05" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lineLay3"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/hola2"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/hola2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAlumnoNombre3"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Jose Juan "/>
+
+                <TextView
+                    android:id="@+id/txtCarrera3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtMatricula3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/Boton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:text="Volver al inicio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Button>
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="150dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="-50dp"
+            android:layout_height="wrap_content"
+            android:text="Favoritos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Button>
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:padding="6dp"
+            tools:ignore="MissingConstraints">
+                <ImageView
+                    android:id="@+id/foto1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/a05" />
+                <ImageView
+                    android:id="@+id/foto2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="100dp"
+                    app:srcCompat="@drawable/a05" />
+                <ImageView
+                    android:id="@+id/foto3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="200dp"
+                    app:srcCompat="@drawable/a05" />
+                <ImageView
+                    android:id="@+id/foto4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="300dp"
+                    app:srcCompat="@drawable/a05" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:padding="6dp"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/foto12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="200dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="300dp"
+                app:srcCompat="@drawable/a05" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:padding="6dp"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/foto8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="200dp"
+                app:srcCompat="@drawable/a05" />
+            <ImageView
+                android:id="@+id/foto11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="300dp"
+                app:srcCompat="@drawable/a05" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
